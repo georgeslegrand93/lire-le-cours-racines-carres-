@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cours Racines Carrées - 3ème</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>ACTIVITÉS NUMÉRIQUES - 3<sup>ème</sup></h1>
+            <p class="prof-name">Professeur Malamine Sadio</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#objectifs">Objectifs</a></li>
+                <li><a href="#definition">Définition</a></li>
+                <li><a href="#calculs">Calculs</a></li>
+                <li><a href="#intervalles">Intervalles</a></li>
+                <li><a href="#equations">Équations</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="chapter-title">
+            <h2>CHAPITRE 1 : RACINES CARRÉES</h2>
+        </section>
+
+        <section id="objectifs" class="card list-card">
+            <h3>I. Objectifs du cours</h3>
+            <ul>
+                <li>Définition et notation de la racine carrée d'un nombre positif ou nul[cite: 5].</li>
+                <li>Utiliser les propriétés de la racine carrée et de la valeur absolue[cite: 7, 11].</li>
+                <li>Rendre rationnel le dénominateur d'un quotient[cite: 8].</li>
+                <li>Comparer des réels et résoudre des équations \(x^2 = a\)[cite: 10, 87].</li>
+            </ul>
+        </section>
+
+        <section id="definition" class="card definition">
+            <h3>II. Définition et Notation</h3>
+            <p>Soit <strong>a</strong> un nombre rationnel positif ou nul. On appelle racine carrée de <strong>a</strong>, le nombre positif ou nul dont le carré est égal à <strong>a</strong>[cite: 25].</p>
+            <div class="formula">Notation : \(\sqrt{a}\)</div>
+            <div class="warning-box">
+                <strong>Attention :</strong> La racine carrée d'un nombre négatif n'existe pas. \(\sqrt{-3}\) n'existe pas[cite: 30].
+            </div>
+        </section>
+
+        <section id="calculs" class="card property">
+            <h3>IV. Propriétés et Calculs</h3>
+            <div class="grid">
+                <div class="formula-box">
+                    <strong>Produit :</strong><br>
+                    \(\sqrt{a \times b} = \sqrt{a} \times \sqrt{b}\) [cite: 45]
+                </div>
+                <div class="formula-box">
+                    <strong>Quotient :</strong><br>
+                    \(\sqrt{\frac{a}{b}} = \frac{\sqrt{a}}{\sqrt{b}}\) [cite: 46]
+                </div>
+            </div>
+            <h4>Identités Remarquables :</h4>
+            <ul>
+                <li>\((\sqrt{a}+\sqrt{b})^2 = a + 2\sqrt{ab} + b\) [cite: 58]</li>
+                <li>\((\sqrt{a}-\sqrt{b})^2 = a - 2\sqrt{ab} + b\) [cite: 59]</li>
+                <li>\((\sqrt{a}+\sqrt{b})(\sqrt{a}-\sqrt{b}) = a - b\) [cite: 60]</li>
+            </ul>
+        </section>
+
+        <section id="intervalles" class="card table-card">
+            <h3>VII. Intervalles dans \(\mathbb{R}\)</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Écriture</th>
+                        <th>Intervalle</th>
+                        <th>Condition</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>\([a ; b]\)</td><td>fermé en a et b</td><td>\(a \le x \le b\)</td></tr>
+                    <tr><td>\(]a ; b[\)</td><td>ouvert en a et b</td><td>\(a < x < b\)</td></tr>
+                    <tr><td>\([b ; +\infty[\)</td><td>supérieurs ou égaux à b</td><td>\(x \ge b\)</td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="equations" class="card equation-card">
+            <h3>IX. Équation du type \(x^2 = a\)</h3>
+            <ul>
+                <li>Si \(a < 0\) : Aucune solution (\(S = \emptyset\))[cite: 89].</li>
+                <li>Si \(a = 0\) : Une solution \(x = 0\)[cite: 90].</li>
+                <li>Si \(a > 0\) : Deux solutions \(x = \sqrt{a}\) et \(x = -\sqrt{a}\)[cite: 91].</li>
+            </ul>
+        </section>
+
+        <section class="card example-card">
+            <h3>X. Valeur Exacte et Approchée</h3>
+            <p><strong>Valeur exacte :</strong> \(\sqrt{7} = 2,64575131...\) [cite: 93]</p>
+            <p><strong>Encadrement à \(10^{-3}\) :</strong> \(2,645 < \sqrt{7} < 2,646\) [cite: 95]</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Cours de Mathématiques - Niveau 3<sup>ème</sup><br>
+        Réalisé par le <strong>Professeur Malamine Sadio</strong></p>
+    </footer>
+
+</body>
+</html>
